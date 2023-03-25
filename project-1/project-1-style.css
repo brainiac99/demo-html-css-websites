@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+p {
+  margin-bottom: 20px;
+}
+.cover {
+  width: 100%;
+  height: auto;
+}
+.menu {
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.main-header {
+  position: relative;
+  margin-bottom: 50px;
+}
+a {
+  display: inline-block;
+}
+a:link,
+a:active {
+  color: white;
+  text-decoration: none;
+  padding: 18px;
+}
+a:hover {
+  background-color: aliceblue;
+  color: black;
+  padding: 18px;
+}
+.cover-title {
+  color: #888888;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(ff, ff, ff, 0);
+
+  position: absolute;
+  bottom: 75px;
+  left: 45%;
+}
+.cover-description {
+  color: #888888;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(ff, ff, ff, 0);
+
+  position: absolute;
+  bottom: 45px;
+  left: 43%;
+}
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+}
+h6 {
+  text-align: center;
+  color: #888888;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.main-text {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+.demo {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding-left: 60px;
+}
+.dummy {
+  width: 150px;
+  height: auto;
+}
+
+.tour {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.month {
+  background-color: white;
+  color: #888888;
+  border: 1px solid #888888;
+  padding: 10px;
+  margin: 0 30px;
+}
+.city {
+  display: inline-block;
+  height: auto;
+  width: 200px;
+  margin-left: 52px;
+  padding-top: 40px;
+}
+.city-img {
+  height: 200px;
+  width: 200px;
+}
+.city-details {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+.city-text {
+  font-size: 12px;
+}
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+h3 {
+  font-size: 12px;
+  color: #888888;
+  margin: 20px 0;
+  font-weight: normal;
+}
+button {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+}
+button:hover,
+button:active {
+  background-color: #aaaaaa;
+  color: black;
+}
+.contact {
+  margin-bottom: 100px;
+  position: relative;
+}
+.contact-details {
+  display: inline-block;
+}
+li {
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 20px;
+  list-style: none;
+}
+table {
+  margin-left: 150px;
+}
+td {
+  color: #aaaaaa;
+  border: 1px solid #aaaaaa;
+  padding: 5px 10px;
+  width: 185px;
+}
+.send {
+  border: none;
+  position: absolute;
+  bottom: -40px;
+  right: 38px;
+}

@@ -1,0 +1,377 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.2rem;
+  display: flex;
+  max-width: 120rem;
+}
+
+.logo {
+  font-size: 4rem;
+  margin-bottom: 3.2rem;
+  padding: 3.2rem 0;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar {
+  color: #777;
+  font-weight: 500;
+
+  width: 14vw;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.menu-items a {
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  display: block;
+}
+
+.dropdown-items {
+  list-style: none;
+  font-size: 3.2rem;
+  color: #777;
+  font-weight: 500;
+
+  margin: 0 1.2rem;
+  padding: 1.2rem 0;
+  display: block;
+}
+
+.highlighted {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  color: #000;
+  background-color: #eee;
+}
+
+.highlighted:hover,
+.highlighted:active {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dropdown {
+  color: #000;
+}
+a {
+  text-decoration: none;
+}
+
+.menu-items a:hover,
+.menu-items a:active {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.nav-footer {
+  margin-top: 8.6rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.nav-footer a {
+  color: #000;
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.nav-footer a:hover,
+.nav-footer a:active {
+  background-color: #ccc;
+}
+
+.main {
+  margin-left: 15vw;
+  font-size: 2.4rem;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 0;
+}
+.menu-title {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+.menu-logos a {
+  color: #000;
+  font-size: 4rem;
+  padding: 0 0.8rem;
+}
+
+.hero {
+  background-image: url(cover.jpg);
+  background-size: 100%;
+  height: 40%;
+  width: auto;
+
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 7.2rem;
+  font-weight: 300;
+  margin: 3.2rem 0;
+}
+
+h3 {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 300;
+  margin: 3.2rem 0;
+}
+
+.btn-hero {
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.8rem 2.4rem;
+  border: none;
+}
+
+.btn-hero:hover,
+.btn-hero:active {
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+}
+
+.showcase-items-count {
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  font-weight: 100;
+}
+
+.showcase-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3%;
+}
+
+.showcase-items-img img {
+  width: 100%;
+  height: auto;
+  padding: 1.2rem 0;
+}
+
+.showcase-items-name {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 1.2rem;
+}
+
+.showcase-items-price {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.new,
+.sale {
+  position: relative;
+}
+
+.new:hover .btn-buy,
+.sale:hover .btn-buy {
+  z-index: 0;
+}
+
+.btn-buy {
+  font-size: 1.4rem;
+  font-weight: 300;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  align-items: end;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.btn-buy ion-icon {
+  font-size: 1.6rem;
+}
+
+.new::after {
+  content: "New";
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  top: 4.4%;
+  left: 0%;
+}
+.sale::after {
+  content: "Sale";
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  top: 4.4%;
+  left: 0%;
+}
+
+.sub {
+  background-color: #000;
+  color: #fff;
+  padding: 1.8rem;
+}
+
+.sub-title {
+  font-size: 4.8rem;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+}
+
+.sub-description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1.8rem;
+}
+
+.sub input {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn-sub {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: red;
+  padding: 0.8rem 1.8rem;
+  border: none;
+}
+
+.btn-sub:hover,
+.btn-sub:active {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.main-footer {
+  padding-top: 6.4rem;
+  padding-right: 12rem;
+  padding-bottom: 6.4rem;
+  background-color: #eee;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 30%;
+  text-align: center;
+  margin-left: 6.4rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1.2rem 0;
+  font-weight: 300;
+}
+
+.contact input {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 1rem;
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 3.2rem;
+  border: 1px solid #ccc;
+}
+
+.btn-send {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.btn-send:hover,
+.btn-send:active {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.about a {
+  display: block;
+  text-decoration: underline;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.8rem 0;
+}
+
+.store p {
+  display: flex;
+  align-items: center;
+  padding-right: 1.2rem;
+}
+.store ion-icon {
+  font-size: 1.6rem;
+}
+
+.footer-logos ion-icon {
+  margin-top: 2.4rem;
+  font-size: 2.4rem;
+}
+
+.footer-logos ion-icon:hover,
+.footer-logos ion-icon:active {
+  color: #555;
+  cursor: pointer;
+}

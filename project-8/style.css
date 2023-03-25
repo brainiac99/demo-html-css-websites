@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  color: #777;
+  max-width: 140rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+ion-icon {
+  font-size: 2rem;
+  color: #009688;
+}
+.section-heading ion-icon {
+  font-size: 3.8rem;
+}
+
+section {
+  margin: 1.8rem;
+  box-shadow: 0 0 12px 5px #ccc;
+}
+.work,
+.education {
+  margin-left: 0;
+  padding: 1.8rem;
+}
+
+.cover {
+  position: relative;
+}
+
+.cover img {
+  width: 100%;
+}
+
+.name {
+  font-size: 3.2rem;
+  color: #fff;
+  position: absolute;
+  left: 7%;
+  bottom: 7%;
+}
+
+.side-container {
+  padding: 1.8rem;
+}
+
+.info {
+  font-size: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #eee;
+}
+
+.info div {
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  column-gap: 1rem;
+
+  padding-top: 1.6rem;
+  align-items: start;
+}
+
+.skills {
+  font-size: 2.4rem;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: 2.4rem 0;
+}
+
+.headings p {
+  font-size: 1.8rem;
+  margin: 1.6rem 0;
+  margin-left: 1.2rem;
+}
+
+.skills .headings,
+.languages .headings {
+  margin: 2.4rem 0;
+}
+
+.bar-texts {
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+
+.bars {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 2rem;
+  margin-bottom: 1.8rem;
+}
+.bars-teal {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  background-color: #009688;
+  border-radius: 1rem;
+}
+
+.bar-90 {
+  width: 90%;
+}
+.bar-80 {
+  width: 80%;
+}
+.bar-75 {
+  width: 75%;
+}
+.bar-50 {
+  width: 50%;
+}
+.bar-25 {
+  width: 25%;
+}
+
+.bars-teal p {
+  padding: 0.4rem 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin-bottom: 3.6rem;
+  margin-top: 1.2rem;
+}
+
+.section-heading p {
+  margin-left: 2.4rem;
+}
+
+.date {
+  color: #009688;
+  display: flex;
+  margin: 1.8rem 0;
+}
+.date p {
+  margin-left: 2.4rem;
+  font-size: 1.8rem;
+}
+span {
+  background-color: #009688;
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.8rem;
+  border-radius: 4px;
+}
+
+.work-sub,
+.education-sub {
+  padding: 0 0 3.6rem 1.2rem;
+  border-bottom: 1px solid #eee;
+}
+.work-sub:last-child,
+.education-sub:last-child {
+  border: none;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: #000;
+}

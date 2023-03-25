@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.cover-part {
+  position: relative;
+}
+
+.nav {
+  height: 50px;
+  width: 1200px;
+  font-size: 15px;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+strong {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0 16px;
+  padding: 10px;
+}
+a:hover {
+  background-color: #ccc;
+}
+.cover {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.floating-text {
+  font-size: 35px;
+  background-color: rgba(136, 136, 136, 0.6);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+}
+.projects {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+}
+.projects img {
+  width: 100%;
+  position: relative;
+}
+.projects img::before {
+  content: "Brick House";
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  font-size: 15px;
+
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.about-text {
+  margin-bottom: 50px;
+}
+.models {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.img {
+  height: auto;
+  width: 25%;
+}
+.img img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+.role {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 25px;
+}
+.contact-button {
+  font-size: 15px;
+  border: none;
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+}
+.contact-button:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+.contact-text {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+.message {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+}
+.message:hover {
+  color: #000;
+  background-color: #999;
+}
+.bottom-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+footer {
+  height: 80px;
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  background-color: #000;
+}

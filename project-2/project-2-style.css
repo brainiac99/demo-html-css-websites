@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+}
+
+.burger {
+  width: 100%;
+  height: auto;
+}
+header {
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+.top-bar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  padding: 15px;
+  margin: 5px 18px;
+}
+a:link {
+  background-color: white;
+}
+a:hover {
+  background-color: #ccc;
+}
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 6px;
+  color: #444;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-contents {
+  display: inline-block;
+  padding-bottom: 50px;
+  width: 40%;
+  margin: 0 4%;
+}
+.crepes {
+  height: auto;
+  width: 100%;
+}
+h3 {
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+.menu {
+  margin-top: 50px;
+}
+h2,
+h4 {
+  margin-left: 20px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #777777;
+  margin-bottom: 40px;
+}
+.meal {
+  width: 90%;
+  height: auto;
+  margin: 50px 5%;
+  border-radius: 8px;
+}
+.contact {
+  margin-left: 15px;
+}
+.contact-info {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-size: 20px;
+  color: #005c5c;
+  margin-bottom: 20px;
+}
+table {
+  width: 98%;
+}
+td {
+  font-size: 15px;
+  padding: 18px;
+  color: #aaa;
+  border-bottom: 1px solid #aaa;
+  padding-top: 30px;
+}
+button {
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #eee;
+  padding: 12px;
+  margin: 30px 0;
+  font-family: "times new roman";
+  border: none;
+}
+button:hover {
+  background-color: #ccc;
+}
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 50px 0;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <div class="logo">LOGO</div>
+        <div class="menu">
+          <div class="menu-items">
+            <a>Shirts</a>
+            <a>Dresses</a>
+            <a class="dropdown">
+              Jeans <ion-icon name="caret-down-outline"></ion-icon
+            ></a>
+            <div class="dropdown-items">
+              <div class="highlighted">
+                <ion-icon name="caret-forward-outline"></ion-icon> Skinny
+              </div>
+              <a>Relaxed</a>
+              <a>Bootcut</a>
+              <a>Straight</a>
+            </div>
+            <a>Jackets</a>
+            <a>Gymwear</a>
+            <a>Blazers</a>
+            <a>Shoes</a>
+          </div>
+        </div>
+        <div class="nav-footer">
+          <a href="#">Contact</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Subscribe</a>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="top-menu">
+          <div class="menu-title">Jeans</div>
+          <div class="menu-logos">
+            <a href="#"><ion-icon class="top-icon" name="cart"></ion-icon></a>
+            <a href="#"><ion-icon class="top-icon" name="search"></ion-icon></a>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="hero-text">
+            <h1>New Arrivals</h1>
+            <h3>COLLECTION 2023</h3>
+            <button class="btn-hero">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="showcase">
+          <div class="showcase-items-count">8 items</div>
+          <div class="showcase-items-grid">
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-1.jpg" />
+              </div>
+              <div class="showcase-items-name">Ripped Skinny Jeans</div>
+              <div class="showcase-items-price">$24.99</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img new">
+                <img src="sample-2.jpg" />
+                <button class="btn-buy">
+                  Buy now <ion-icon class="top-icon" name="cart"></ion-icon>
+                </button>
+              </div>
+              <div class="showcase-items-name">Mega Ripped Jeans</div>
+              <div class="showcase-items-price">$19.99</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-3.jpg" />
+              </div>
+              <div class="showcase-items-name">Washed Skinny Jeans</div>
+              <div class="showcase-items-price">$20.50</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-4.jpg" />
+              </div>
+              <div class="showcase-items-name">Vintage Skinny Jeans</div>
+              <div class="showcase-items-price">$14.99</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-5.jpg" />
+              </div>
+              <div class="showcase-items-name">Mega Ripped Jeans</div>
+              <div class="showcase-items-price">$19.99</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-6.jpg" />
+              </div>
+              <div class="showcase-items-name">Washed Skinny Jeans</div>
+              <div class="showcase-items-price">$20.50</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img sale">
+                <img src="sample-7.jpg" />
+                <button class="btn-buy">
+                  Buy now <ion-icon class="top-icon" name="cart"></ion-icon>
+                </button>
+              </div>
+              <div class="showcase-items-name">Vintage Skinny Jeans</div>
+              <div class="showcase-items-price">$14.99</div>
+            </div>
+            <div class="showcase-items">
+              <div class="showcase-items-img">
+                <img src="sample-8.jpg" />
+              </div>
+              <div class="showcase-items-name">Ripped Skinny Jeans</div>
+              <div class="showcase-items-price">$24.99</div>
+            </div>
+          </div>
+        </div>
+        <div class="sub">
+          <div class="sub-title">Subscribe</div>
+          <div class="sub-description">
+            To get special offers and VIP treatment:
+          </div>
+          <input
+            id="sub-email"
+            type="email"
+            placeholder="Enter e-mail"
+            required
+          />
+          <button class="btn-sub">Subcribe</button>
+        </div>
+        <div class="main-footer">
+          <div class="contact">
+            <h5>Contact</h5>
+            <p>Questions? Go ahead.</p>
+            <input id="name" type="text" placeholder="Name" />
+            <input id="main-email" type="email" placeholder="Email" />
+            <input id="subject" type="text" placeholder="Subject" />
+            <input id="message" type="text" placeholder="Message" />
+            <button class="btn-send">Send</button>
+          </div>
+          <div class="about">
+            <h5>About</h5>
+            <a href="#" class="about-link">About us</a>
+            <a href="#" class="about-link">We're hiring</a>
+            <a href="#" class="about-link">Support</a>
+            <a href="#" class="about-link">Find store</a>
+            <a href="#" class="about-link">Shipment</a>
+            <a href="#" class="about-link">Payment</a>
+            <a href="#" class="about-link">Gift card</a>
+            <a href="#" class="about-link">Return</a>
+            <a href="#" class="about-link">Help</a>
+          </div>
+          <div class="store">
+            <h5>Store</h5>
+            <p><ion-icon name="location"></ion-icon> Company Name</p>
+            <p><ion-icon name="call"></ion-icon> 0044123123</p>
+            <p><ion-icon name="mail"></ion-icon> ex@mail.com</p>
+            <h5>We accept</h5>
+            <p><ion-icon name="card"></ion-icon> Amex</p>
+            <p><ion-icon name="card"></ion-icon> Credit Card</p>
+            <div class="footer-logos">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-snapchat"></ion-icon>
+              <ion-icon name="logo-pinterest"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+h3 {
+  color: brown;
+}
+
+h4 {
+  color: blueviolet;
+}
+
+.heading-2 {
+  color: red;
+}
+
+#heading-2 {
+  color: blue;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+a {
+  font-size: 50px;
+  color: black;
+  text-decoration: none;
+}
