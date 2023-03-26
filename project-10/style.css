@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   letter-spacing: -1px;
+  scroll-behavior: smooth;
 }
 
 .sidebar {
@@ -46,6 +47,7 @@ html {
 }
 
 .main-container {
+  /* max-width: 145rem; */
   margin-left: 40rem;
   padding: 7.4rem;
 }
@@ -241,7 +243,8 @@ footer {
   justify-content: end;
   align-items: center;
   background-color: #ddd;
-  width: 100%;
+  margin-left: 40rem;
+  /* max-width: 145rem; */
   height: 15vh;
   text-align: right;
 }
